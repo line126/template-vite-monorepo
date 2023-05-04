@@ -47,7 +47,11 @@ importers:
         specifier: ^4.3.2
         version: 4.3.4
 
-  plugins/react-convention-route: {}
+  plugins/react-convention-route:
+    devDependencies:
+      '@types/node':
+        specifier: ^18.16.3
+        version: 18.16.3
 
 packages:
 
@@ -591,6 +595,10 @@ packages:
 
   /@types/json-schema@7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
+    dev: true
+
+  /@types/node@18.16.3:
+    resolution: {integrity: sha512-OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==}
     dev: true
 
   /@types/prop-types@15.7.5:

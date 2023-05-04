@@ -1,4 +1,7 @@
 {
   "name": "react-convention-route",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/node": "^18.16.3"
+  }
 }
