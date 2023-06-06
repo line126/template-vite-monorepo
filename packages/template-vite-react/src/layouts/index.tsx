@@ -28,7 +28,7 @@ const UmiLayout: React.FC = () => {
   return (
     <Layout style={{ minHeight: '100vh' }}>
       <Sider theme="light">
-        <Menu mode="inline" items={items} defaultSelectedKeys={[location.pathname]} />
+        <Menu mode="inline" items={items} selectedKeys={[location.pathname]} />
       </Sider>
       <Content style={{ margin: '0 16px' }}>
         <Outlet />
